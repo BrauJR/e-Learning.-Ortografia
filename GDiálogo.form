@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-87,0,0,4,-110"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1170" height="60"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Di&#xe1;logo-Puntuaci&#xf3;n"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="400" y="0" width="190" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Im&#xe1;genes/Menu.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Men&#xfa; principal"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel10MousePressed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1060" y="0" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="60" width="1170" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="17" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;    &#xa;       Los di&#xe1;logos en espa&#xf1;ol comienzan con un gui&#xf3;n largo (raya) no un gui&#xf3;n corto (gui&#xf3;n). &#xa;&#xa;       En este art&#xed;culo, simplemente llamaremos al gui&#xf3;n largo, un gui&#xf3;n. &#xa;&#xa;          &#x2013;Estoy listo. (= &quot;Estoy listo&quot;) &#xa;&#xa;       Observe que no hay espacio entre el gui&#xf3;n y la primera letra. &#xa;&#xa;       Los di&#xe1;logos no terminan en un gui&#xf3;n (-), solo el signo de puntuaci&#xf3;n normal (normalmente un punto, un signo de interrogaci&#xf3;n o un signo de &#xa;&#xa;       exclamaci&#xf3;n). &#xa;&#xa;       Puntuaci&#xf3;n con atributos.&#xa;&#xa;       Un gui&#xf3;n tambi&#xe9;n se utiliza para introducir un atributo. Un atributivo en un di&#xe1;logo acredita el discurso a la persona que lo dijo. Se refiere a un verbo &#xa;&#xa;       o acci&#xf3;n asociada con hablar y qui&#xe9;n lo dijo. &#xa;&#xa;          &#x2013;Dijo &#xe9;l. (= dijo) &#xa;&#xa;          &#x2013;Respondi&#xf3; ella. (= ella respondi&#xf3;) &#xa;&#xa;          &#x2013;Pregunt&#xf3;. (= pregunt&#xf3; &#xe9;l / ella) &#xa;&#xa;       Una vez m&#xe1;s, el gui&#xf3;n se une a la primera letra de la primera palabra. Observe tambi&#xe9;n c&#xf3;mo esa primera palabra, normalmente un verbo &quot;hablar&quot; &#xa;&#xa;       comienza con una letra min&#xfa;scula. &#xa;&#xa;       M&#xe1;s ejemplos de verbos de &quot;hablar&quot; en espa&#xf1;ol son: &#xa;&#xa;          acept&#xf3; (aceptado), aconsej&#xf3; (aconsejado), admiti&#xf3; (admitido), mantener (afirmado / afirmado), amenaz&#xf3; (amenazado), brome&#xf3; (bromeado), &#xa;&#xa;          coment&#xf3; (coment&#xf3;), concluy&#xf3; (concluy&#xf3;), dijo (dijo), grit&#xf3; (grit&#xf3; ), minti&#xf3; (minti&#xf3;), pregunt&#xf3; (pregunt&#xf3;), prometi&#xf3; (prometi&#xf3;), repiti&#xf3; (repetido), &#xa;&#xa;          respondi&#xf3; (respondi&#xf3;), rog&#xf3; (suplic&#xf3;), sugiri&#xf3; (sugiri&#xf3;), susurr&#xf3; (susurr&#xf3;). &#xa;&#xa;       Ahora veamos las dos partes juntas: el discurso y el atributivo. &#xa;&#xa;          &#x2013;Estoy lista &#x2013;dijo ella. &#xa;&#xa;       No hay per&#xed;odo (punto final) al final de la primera parte, ya que se contin&#xfa;a con un atributo. Solo podemos poner un signo de interrogaci&#xf3;n, un signo &#xa;&#xa;       de explicaci&#xf3;n o puntos suspensivos (tres puntos) en la parte del discurso cuando est&#xe1; seguido de un atributo. &#xa;&#xa;       Vea c&#xf3;mo hay un espacio entre lo que se dice y el gui&#xf3;n que se une al atributo. &#xa;&#xa;       Recuerde, el atributo del orador comienza con una letra min&#xfa;scula. &#xa;&#xa;          &#x2013;&#xbf;Est&#xe1;s bien? &#x2013;Pregunt&#xf3; diego. &#xa;&#xa;          &#x2013;S&#xed;, estoy bien &#x2013;le contest&#xf3; Ang&#xe9;lica con una sonrisa. &#xa;&#xa;       El discurso de cada persona se escribe una l&#xed;nea separada. &#xa;&#xa;       El primer discurso tiene los signos de interrogaci&#xf3;n directamente despu&#xe9;s de las palabras. El segundo discurso NO tiene el punto (punto final) &#xa;&#xa;       directamente despu&#xe9;s de lo que se dice. &#xa;&#xa;       Aqu&#xed; aparece al final de la atributiva. &#xa;&#xa;       &#xbf;Qu&#xe9; pasa si hay m&#xe1;s di&#xe1;logo despu&#xe9;s del atributivo?&#xa; &#xa;          &#x2013;Estoy lista &#x2013;dijo ella&#x2013;. Me voy a la fiesta. &#xa;&#xa;       Primero agregamos un gui&#xf3;n al final del atributo. A esto le sigue el signo de puntuaci&#xf3;n final de la primera parte del discurso. En el ejemplo anterior, &#xa;&#xa;       Estoy lista deber&#xed;a terminar en un per&#xed;odo (punto final) pero en su lugar, va despu&#xe9;s del gui&#xf3;n al final del atributo. Como es una oraci&#xf3;n nueva, la &#xa;&#xa;       segunda parte comienza con una letra may&#xfa;scula. &#xa;&#xa;       Si ayuda, puedes pensar en los guiones en &#x2013;dijo ella&#x2013; como par&#xe9;ntesis. &#xa;&#xa;       Pero mira lo siguiente:&#xa; &#xa;          &#x2013;Estoy lista &#x2013;dijo ella&#x2013;, y nadie me va a parar. &#xa;&#xa;       Aqu&#xed; el di&#xe1;logo es una oraci&#xf3;n m&#xe1;s larga que es interrumpida por el atributivo. Dado que el signo de puntuaci&#xf3;n es una coma, la segunda parte &#xa;&#xa;       contin&#xfa;a con una letra min&#xfa;scula. &#xa;&#xa;       Sin embargo, si la primera parte termina en un signo de interrogaci&#xf3;n, signo de exclamaci&#xf3;n o puntos suspensivos (tres puntos), esto va al final de &#xa;&#xa;       la primera parte. &#xa;&#xa;          &#x2013;&#xa1;Est&#xe1;s loco! &#x2013;Grit&#xf3; Daniel&#x2013;. Tienes que parar inmediatamente. &#xa;&#xa;       Si el comentario del narrador no tiene nada que ver con un verbo hablar o pensar (incluidas las acciones relacionadas, como gritar, susurrar, etc.), &#xa;&#xa;       la oraci&#xf3;n del narrador comienza con una letra may&#xfa;scula. &#xa;&#xa;          -Me voy. &#x2013;Cerr&#xf3; la puerta y sali&#xf3;. &#xa;&#xa;       Usando los dos puntos en el di&#xe1;logo &#xa;&#xa;       Hasta ahora, solo hemos visto el atributo (verbo) despu&#xe9;s de lo que se dice. Sin embargo, a veces tienes lo que dice el narrador antes del discurso. &#xa;       En este caso usamos dos puntos despu&#xe9;s del &quot;verbo que habla&quot;. &#xa;&#xa;          Mi madre dijo: &#xa;&#xa;          &#x2013;Vamos en diez minutos. &#xa;&#xa;          Le pregunt&#xe9; al doctor: &#xa;&#xa;          &#x2013;&#xbf;Estar&#xe9; bien? &#xa;&#xa;       El di&#xe1;logo pasa a la siguiente l&#xed;nea. &#xa;&#xa;       Puntuaci&#xf3;n al pensar. &#xa;&#xa;       Cuando una persona est&#xe1; PENSANDO directamente en lugar de hablar, entonces se usa la puntuaci&#xf3;n &#xab;&#xbb; (comillas) en lugar del gui&#xf3;n. &#xa;&#xa;       Estas son conocidas como comillas angulares , comillas latinas y tambi&#xe9;n comillas espa&#xf1;olas . &#xa;&#xa;          &#xab;&#xa1;Qu&#xe9; aburrido!&#xbb;, Pens&#xe9;. Pero no me atrev&#xed; a decirlo. &#xa;&#xa;          &#xab;Hay algo raro aqu&#xed;&#xbb;, pens&#xf3; el detective. &#xa;&#xa;          &#x2013;Puedes llegar a ser un buen jugador &#x2013;le expliqu&#xe9; y pens&#xe9;, aunque nunca tan bueno como yo &#x201d;. &#xa;&#xa;       Observe la posici&#xf3;n del per&#xed;odo (punto final) y la coma despu&#xe9;s del cierre final de Comilla. &#xa;&#xa;       Puntuaci&#xf3;n al citar&#xa; &#xa;       Las comillas, o repitiendo lo que alguien m&#xe1;s ha dicho, est&#xe1;n encerradas en comillas. &#xa;&#xa;       Fue Descartes quien dijo: &#xab;Pienso, luego existo&#xbb; . &#xa;&#xa;       Sus &#xfa;ltimas palabras fueron: &#xab;No pasar&#xe1; nada&#xbb; . .&#xa;&#xa;    ___________________________________________________________________________________________________________________________&#xa;&#xa;       Bibliograf&#xed;a: &#xa;   &#xa;       http://ortograf&#xed;a.es.mx&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="caretPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

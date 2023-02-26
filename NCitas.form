@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="1170" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" min="-2" pref="1170" max="-2" attributes="0"/>
+                      <Component id="jPanel13" alignment="0" min="-2" pref="1170" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="654" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="59" pref="59" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="590" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Im&#xe1;genes/Menu.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Men&#xfa; principal"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel11MousePressed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1060" y="0" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Citas bibliogr&#xe1;ficas"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="0" width="380" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="17" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="   &#xa;&#xa;       1.1. Citas textuales&#xa;&#xa;           Todo investigador deber&#xe1; documentar las opiniones de otros autores mencionados en su trabajo, haciendo referencia a la fuente original. &#xa;&#xa;           Cualquier cita de 40 palabras o menos debe entrecomillarse. Se reemplazan por puntos suspensivos (...) las palabras o frases omitidas. La cita &#xa;&#xa;           textual, se compondr&#xe1; del apellido del autor, a&#xf1;o de la publicaci&#xf3;n y p&#xe1;gina/s dedonde se tom&#xf3; la cita. &#xa;&#xa;           El formato de la cita bibliogr&#xe1;fica variar&#xe1; seg&#xfa;n d&#xf3;nde se coloque el &#xe9;nfasis.&#xa;&#xa;       Enfasis de la cita puesto en el texto: &#xa;&#xa;           El formato de la cita incluir&#xe1; el texto y al final, entre par&#xe9;ntesis, el apellido del autor, el a&#xf1;o de la publicaci&#xf3;n y la p&#xe1;gina.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              &#x201c;Las dos directrices constitucionales que integran el patrimonio cultural son su conservaci&#xf3;n y difusi&#xf3;n, misiones esenciales de los &#xa;&#xa;              memorizadores sociales, como denomin&#xf3; Le Goof a los archiveros y bibliotecarios&#x201d; (Ramos Sim&#xf3;n, 2003, p. 27)&#xa; &#xa;       Y en lista de referencias:&#xa;&#xa;              Ramos Sim&#xf3;n, L. F. (coord.). (2003). Impacto de las publicaciones peri&#xf3;dicas en las unidades de informaci&#xf3;n. Madrid: Complutense.&#xa;&#xa;       Enfasis de la cita puesto en el autor: El formato de la cita incluir&#xe1; el apellido del autor, entre par&#xe9;ntesis el a&#xf1;o, el contenido del texto y entre &#xa;&#xa;       par&#xe9;ntesis la p&#xe1;gina de la cual fue tomado.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              Ramos Sim&#xf3;n (2003) afirma: &#x201c;Las bases de datos se configuran como las herramientas m&#xe1;s adecuadas y adaptables para la recuperaci&#xf3;n de &#xa;&#xa;              informaci&#xf3;n yde conocimiento&#x201d; (p. 69).&#xa;&#xa;       Las citas de m&#xe1;s de 40 palabras deben estar separadas del texto comenzando en l&#xed;nea aparte, con una sangr&#xed;a de 5 espacios desde el margen &#xa;&#xa;       izquierdo y sin comillas, se disminuir&#xe1; el interlineado.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              Keynes (1994) afirma&#xa;&#xa;              El antiguo Egipto era doblemente afortunado, y, sin duda, debi&#xf3; a esto su fabulosa riqueza, porque pose&#xed;a dos actividades: la de construir &#xa;&#xa;              pir&#xe1;mides y la de buscar metales preciosos cuyos frutos desde el momento que no pod&#xed;an ser &#xfa;tiles para las necesidades humanas, &#xa;&#xa;              consumi&#xe9;ndose, no perd&#xed;an utilidad por ser abundantes. La edad media construy&#xf3; catedrales y cant&#xf3; endechas. Dos pir&#xe1;mides, dos misas de &#xa;&#xa;              r&#xe9;quiem, son dos vecesmejores que una; pero no sucede lo mismo con dos ferrocarriles de Londres a York (p. 122).&#xa;&#xa;       Y en la lista de referencias:&#xa;&#xa;              Keynes, J. M. (1994). Teor&#xed;a general de la ocupaci&#xf3;n, el inter&#xe9;s y el dinero. Madrid:Planeta. 5&#xa; &#xa;       Enfasis de la cita puesto en el a&#xf1;o de publicaci&#xf3;n: se colocar&#xe1; en primer lugar el a&#xf1;o, luego el apellido del autor y la p&#xe1;gina.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              En 1934, Paul Otlet sostiene &#x201c;&#x2026; necesitamos ahora no solamente de bibliograf&#xed;a, descripci&#xf3;n de libros, sino de Bibliolog&#xed;a, es decir, una &#xa;&#xa;              ciencia y un t&#xe9;cnica generales del documento&#x201d; (p. 9).&#xa;&#xa;       Y en la lista de referencias:&#xa;&#xa;              Otlet, P. (1934). Trait&#xe9; de documentation. Le livre sur le livre: th&#xe9;orie et practique.[Tratado de documentaci&#xf3;n. El libro sobre el libro: teor&#xed;a y &#xa;&#xa;             pr&#xe1;ctica] Brusselles. Editions Mundaneum.&#xa;&#xa;       1.2. Cita parafraseada&#xa;&#xa;       Se denomina cita parafraseada o contextual, cuando se toma la idea de un texto, o se resume, sin utilizar las palabras textuales del autor. En ese &#xa;&#xa;       caso s&#xf3;lo se coloca el a&#xf1;o entre par&#xe9;ntesis.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              Ramos Sim&#xf3;n (2003) sostiene que uno de los cambios generados por las TIC afecta directamente al tiempo, el cual deja de estar cimentado &#xa;&#xa;              simplemente en el decurso de los d&#xed;as...&#xa;&#xa;       Y en la lista de referencias:&#xa;&#xa;              Ramos Sim&#xf3;n, L. F. (coord.). (2003). Impacto de las publicaciones peri&#xf3;dicas en las unidades de informaci&#xf3;n. Madrid: Complutense.&#xa;&#xa;       1.3. Citas de segunda mano: Cuando en la cita que se toma hay otra cita, se copia tal cual est&#xe1; y luego se indican los datos de autor y t&#xed;tulo de la &#xa; &#xa;       obra consultada.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              &#x201c;... del entierro disputado refleje una espec&#xed;fica situaci&#xf3;n hist&#xf3;rica y un conflicto del momento (Steiner, 1991)&#x201d; (Czernikowski y otros, 2003, p. &#xa;&#xa;              112)&#xa;&#xa;       Y en la lista de referencias&#xa;&#xa;              Czernikowski, E., Gaspari, R., Matus, S. y Moscona, S. (comps.). (2003). Entre hermanos. Buenos Aires: Lugar.&#xa;&#xa;        Aclaraci&#xf3;n: no se incluir&#xe1;n los datos de Steiner pues la obra consultada fue la de Czernikowski 6&#xa;&#xa;       1.4. Citas en otro idioma: Cuando se utilice una cita en otro idioma &#xe9;sta debe traducirse, y en la lista de referencias al final del trabajo se incluir&#xe1; la &#xa;&#xa;       cita completa aclarando que la traducci&#xf3;n es del autor del trabajo.&#xa;&#xa;       1.5. Figuras o tablas&#xa;&#xa;       Las tablas o figuras tomadas de un texto y reproducidas fielmente, o adaptadas, deben llevar una nota al pie con informaci&#xf3;n que titule, ampl&#xed;e o &#xa;&#xa;       explique el contenido de lasmismas y adem&#xe1;s indique la fuente consultada.&#xa;&#xa;       Si la tabla o figura fue tomada de otra obra, incluir en la nota al pie la referencia completa de la fuente de acuerdo al siguiente formato (esta &#xa;&#xa;       informaci&#xf3;n no se incluye en la lista de referencia del trabajo):&#xa;&#xa;       Publicaci&#xf3;n peri&#xf3;dica: Nota de referencia&#xa;&#xa;       De [o Los datos en la columna son de] &#x201c;T&#xed;tulo del art&#xed;culo&#x201d;, por A. A. Autor y B. B. Autor, a&#xf1;o, T&#xed;tulo de la publicaci&#xf3;n, Volumen, p. xx. Derechos&#xa;&#xa;       reservados [a&#xf1;o] por el Nombre del titular de los derechos de autor.&#xa;&#xa;       Reproducido [o adaptado] con permiso.&#xa;&#xa;       Libro: Nota de referencia&#xa;&#xa;              De [o Adaptado de] T&#xed;tulo del libro, (p. xxx), por A. A. Autor y B. B. Autor, a&#xf1;o, Lugar de la publicaci&#xf3;n: Editorial. Derechos reservados [a&#xf1;o] por &#xa;              el Nombre del titular de los derechos de autor. Reproducido [o adaptado] con permiso.&#xa;&#xa;              Ejemplo:&#xa;&#xa;              Figura X. Modelo de mediaci&#xf3;n gen&#xe9;rico sujeto a prueba. Adaptado de &#x201c;Preschool Home Literacy Practices and Children&#x2019;s Literacy&#xa;&#xa;              Development: A Longitudinal Analysis&#x201d;, por M. Hood, E. Conlon &amp; G. Andrews, 2008, Journal of Educational Psychology, 100, p. 259. Copyright &#xa;&#xa;              2008 por la American Psychological Association.&#xa;&#xa;              Adaptado de Estrategia competitiva, (p. 67), por M. E. Porter, 2004, M&#xe9;xico D.F.:&#xa;&#xa;              Compa&#xf1;&#xed;a Editorial Continental. Copyright 2000 por Grupo Patria Cultural."/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="caretPosition" type="int" value="0"/>
+            <Property name="focusCycleRoot" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

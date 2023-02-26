@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-118,0,0,4,-120"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="60" width="1170" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="17" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;       La conjunci&#xf3;n es una parte de la oraci&#xf3;n, vac&#xed;a de contenido significativo, cuya funci&#xf3;n es, la de enlazar dos o m&#xe1;s palabras o dos o m&#xe1;s &#xa;&#xa;       oraciones.&#xa;&#xa;       Existen dos clases de conjunciones: coordinantes y subordinantes.&#xa;&#xa;         Las conjunciones coordinantes&#xa; &#xa;        Copulativas: Su funci&#xf3;n es sumar elementos. y, e, ni.&#xa;&#xa;        Ejemplos:&#xa;&#xa;           &#x2022;Quiero una empanada y una bebida.&#xa;&#xa;           &#x2022;Carla es simp&#xe1;tica e inteligente.&#xa;&#xa;           &#x2022;Ni lo uno ni lo otro.&#xa;&#xa;       Se usa Y para enlazar palabras, ideas o cl&#xe1;usulas.&#xa;&#xa;       Se usa E en vez de Y para evitar el hiato en palabras que comienzan con &quot;i&quot; o &quot;hi&quot;. Pero no se puede reemplazar la Y por E cuando va al principio, &#xa;&#xa;       una interrogaci&#xf3;n ni cuando la palabra siguiente comienza por &quot;y&quot; o &quot;hie&quot;.&#xa;&#xa;         Ejemplos: &#xbf;Y Isidora?; Aluminio y hierro.&#xa;&#xa;       Se usa Ni para unir palabras u oraciones expresando negaci&#xf3;n.&#xa;&#xa;         Disyuntivas: Sirven para excluir una de las dos afirmaciones que se hacen en una oraci&#xf3;n. o, u, o bien. &#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Deseas vino tinto o blanco.&#xa;&#xa;           &#x2022;Estar&#xe9; aqu&#xed; entre siete u ocho meses.&#xa;&#xa;           &#x2022;Ll&#xe1;malo o bien m&#xe1;ndale un correo electr&#xf3;nico.&#xa;&#xa;       Se usa O para denotar alternativa o diferencia. La vocal O lleva acento cuando va entre n&#xfa;meros.&#xa;&#xa;           &#x2022;Voy a Espa&#xf1;a por 2 &#xf3; 3 meses (la O con acento)&#xa;&#xa;           &#x2022;Voy a Espa&#xf1;a por dos o tres meses (n&#xfa;meros en palabras; la O sin acento).&#xa;&#xa;       Se usa U en vez de O cuando la siguiente palabra comienza con &quot;o&quot; o &quot;ho&quot;.&#xa;&#xa;         Ejemplos: Tigre u oso; Chile u Holanda.&#xa;&#xa;          Distributivas: Presentan acciones alternativas pero que no se excluyen. ya... ya, bien... bien, o... o, uno... otro, tanto... como. &#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Ese d&#xed;a ya sal&#xed;a el sol, ya se escond&#xed;a.&#xa;&#xa;           &#x2022;Uno paga el desayuno el otro paga el almuerzo. &#xa;&#xa;           &#x2022;Tanto t&#xfa; como yo estudiamos los mismos temas.&#xa;&#xa;          Adversativas: Tienen la funci&#xf3;n de negar el primer elemento y afirmar el segundo. pero, mas, aunque, sin embargo, no obstante, antes, antes &#xa;&#xa;          bien, por lo dem&#xe1;s, sino, excepto, antes bien. &#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Es una pel&#xed;cula larga pero muy entretenida.&#xa;&#xa;           &#x2022;Ha realizado muchas exposiciones, no obstante ninguna en Santiago.&#xa;  &#xa;           &#x2022;Est&#xe1; todo listo sin embargo, siento que algo falta.&#xa;&#xa;          Explicativas: El primer elemento de la coordinaci&#xf3;n es aclarado o explicado por el segundo. es decir, esto es.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Tiene 18 a&#xf1;os, es decir, es mayor de edad en Chile.&#xa;&#xa;           &#x2022;Ese traje no s&#xf3;lo se usa de noche, esto es, que lo puedes usar para cualquier ocasi&#xf3;n.&#xa;&#xa;           &#x2022;Ser&#xe9; el nuevo presidente de la compa&#xf1;&#xed;a, es decir, presidir&#xe9; la compa&#xf1;&#xed;a.&#xa;&#xa;       Las conjunciones subordinantes&#xa;&#xa;      Causales: Desempe&#xf1;an la funci&#xf3;n de indicar la causa expresada en la proposici&#xf3;n principal. porque, pues, puesto que, ya que, como.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Daniel es el presidente de esta compa&#xf1;&#xed;a ya que es muy inteligente.&#xa;&#xa;           &#x2022;Esp&#xe9;rame 5 minutos por favor porque tengo que enviar este correo.&#xa;&#xa;           &#x2022;Puesto que es muy estudiosa, aprende r&#xe1;pido espa&#xf1;ol.&#xa;&#xa;          Comparativa: Denota idea de comparaci&#xf3;n. que.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Ang&#xe9;lica es m&#xe1;s joven que Roberto.&#xa;&#xa;           &#x2022;Tengo m&#xe1;s trabajo que ayer, pero menos que ma&#xf1;ana.&#xa;&#xa;           &#x2022;Chile es m&#xe1;s largo que Nueva Zelandia.&#xa;&#xa;          Concesivas: Expresan una dificultad para lo que se expresa en la proposici&#xf3;n principal. aunque, bien que, por m&#xe1;s que, si bien.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Por m&#xe1;s que insistas, no iras.&#xa;&#xa;           &#x2022;Si bien no habla r&#xe1;pido espa&#xf1;ol, habla perfecto.&#xa; &#xa;           &#x2022;Ir&#xe9; a tu casa aunque llueva.&#xa;&#xa;          Condicionales: Denotan condici&#xf3;n o necesidad de que se verifique alguna circunstancia. si, con tal que, siempre que, como.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Si hace calor, enciende el aire acondicionado.&#xa;&#xa;           &#x2022;Con tal que te levantes temprano, no importa la hora que te duermas.&#xa;     &#xa;           &#x2022;Vamos a la playa, siempre que haya buen clima.&#xa;&#xa;&#xa;          Consecutivas: Indican una consecuencia de lo que se expresa en la proposici&#xf3;n principal. pues luego, as&#xed; que, de modo que, conque.&#xa;  &#xa;         Ejemplos:&#xa;&#xa;           &#x2022;As&#xed; que si estudias te ir&#xe1; muy bien.&#xa;&#xa;           &#x2022;Llegar&#xe9; m&#xe1;s temprano, de modo que esp&#xe9;rame para que comamos juntos. &#xa;&#xa;           &#x2022;El clima se puso del lado de los agricultores, pues luego de varios d&#xed;as de lluvia, podr&#xe1;n cosechar.&#xa;&#xa;          Finales: Denota el fin u objeto de lo manifestado en la oraci&#xf3;n principal. para que, a fin de que.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;A fin de que no hayan confusiones lo explicar&#xe9; dos veces.&#xa;&#xa;           &#x2022;Algunas sugerencias para que aprendas espa&#xf1;ol.&#xa; &#xa;           &#x2022;Para que practiques y aprendas vocabulario revisa nuestro sito de internet.&#xa;&#xa;          Temporales: Dan idea de tiempo. mientras, cuando.&#xa;&#xa;         Ejemplos:&#xa;&#xa;           &#x2022;Mientras siga viniendo a la misma hora de siempre, no habr&#xe1; problema.&#xa;&#xa;           &#x2022;Nos vemos en el restaurante cuando terminen tus clases en Woodward.&#xa;&#xa;           &#x2022;Cuando abran el banco har&#xe9; el dep&#xf3;sito.&#xa;   ___________________________________________________________________________________________________________________________&#xa;&#xa;       Bibliograf&#xed;a: &#xa;   &#xa;       http://ortograf&#xed;a.es.mx&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="caretPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1170" height="60"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Conjunciones"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="0" width="190" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

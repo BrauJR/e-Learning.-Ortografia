@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-118,0,0,4,-120"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1170" height="60"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ap&#xf3;cope de los adjetivos"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="400" y="0" width="240" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="60" width="1170" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="17" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;       Algunos adjetivos en espa&#xf1;ol tienen una forma corta. Este fen&#xf3;meno gram&#xe1;tico se llama Ap&#xf3;cope, que es una supresi&#xf3;n de los sonidos al final de &#xa;&#xa;       ciertas palabras. &#xa;&#xa;       Aqu&#xed; te mostramos algunos adjetivos ap&#xf3;copes comunes:&#xa;&#xa;&#xa;                                &#x9;Ap&#xf3;cope                 &#x9;     Ejemplo &#xa;&#xa;                     Uno &#x9;     -   Un &#x9;            -  Quiero un perro, no dos. &#xa;&#xa;                    Bueno &#x9;   -  Buen &#x9;         -  &#xa1;Qu&#xe9; tengas un buen d&#xed;a! &#xa;&#xa;                    Malo &#x9;     -   Mal &#x9;        -  Ahora es un mal momento para m&#xed;. &#xa;&#xa;                   Primero                         -  Primer &#x9;     -  Es el primer cap&#xed;tulo de la novela. &#xa;&#xa;                   Tercero                         -  Tercer &#x9;     -  Marzo es el tercer mes del a&#xf1;o. &#xa;&#xa;                    Alguno                          -  Alg&#xfa;n                    -  &#xbf;Habr&#xe1; alg&#xfa;n se&#xf1;or amable que me preste dos mil pesos? &#xa;&#xa;                    Ninguno                        -  Ning&#xfa;n *   &#x9;-  No tengo ning&#xfa;n diario en la casa. &#xa;&#xa;&#xa;        * alg&#xfa;n y ning&#xfa;n llevan el tilde porque es una palabra aguda que termina con N. &#xa;&#xa;       Nota: Los adjetivos ap&#xf3;cope pierden la &quot;o&quot; final cuando van delante de un sustantivo masculino singular.&#xa;&#xa;      Como puedes ver en los ejemplos las palabras que van seguidas de un ap&#xf3;cope son masculinas. &#xa;&#xa;       Si lo utilizamos con los adjetivos femeninos queda de la siguiente manera:&#xa;&#xa;&#xa;&#x9;                    Ejemplos de Ap&#xf3;cope &#xa;&#xa;                Uno &#x9;      -  un chico - una chica &#xa;&#xa;                Bueno &#x9;   - un buen amigo - una buena amiga &#xa;&#xa;                Malo &#x9;     - un mal escritor - una mala escritora &#xa;&#xa;                Primero &#x9;- el primer hijo - la primera hija &#xa;&#xa;                Tercero &#x9; - el tercer cap&#xed;tulo - la tercera l&#xed;nea &#xa;&#xa;                Alguno &#x9;  -  alg&#xfa;n consejo - alguna idea &#xa;&#xa;                Ninguno &#x9;-   ning&#xfa;n alumno - ninguna alumna &#xa;&#xa;       Gran o Grande&#xa;&#xa;       Cuando Grande significa que &quot;alguien o algo es notable&quot; se apocopa como gran si viene antes de un sustantivo masculino o feminino singular. &#xa;&#xa;           &#x2022;&#xc9;l es un gran cantante.&#xa;&#xa;           &#x2022;Alg&#xfa;n d&#xed;a podr&#xed;as ser un gran actor. &#xa;&#xa;           &#x2022;Fue una gran pel&#xed;cula, me gust&#xf3; mucho. &#xa;&#xa;       Cu&#xe1;ndo Grande se refiere al tama&#xf1;o de algo, normalmente va despu&#xe9;s del sustantivo:&#xa;&#xa;           &#x2022;Vivo en una ciudad grande.&#xa;          &#xa;           &#x2022;Tengo un perro grande.&#xa;&#xa;       Nota: No se apocopa grande cuando es parte de un comparativo&#xa;&#xa;           &#x2022;Ella es una cantante important&#xed;sima. Es la m&#xe1;s grande de todos los tiempos.&#xa;&#xa;       &#xbf;Cu&#xe1;l es la diferencia entre Un hombre grande vs Un gran hombre?&#xa;&#xa;       Si decimos: &quot;El hombre grande&quot;, nos estamos refiriendo a su tama&#xf1;o o contextura f&#xed;sica. &#xa;&#xa;       En cambio, si decimos, &quot;El gran hombre&quot; quiere decir que su forma de ser es buena, tal vez, es un buen hombre, un buen amigo, que es una &#xa;&#xa;       persona notable etc.&#xa;&#xa;       San o Santo&#xa;&#xa;       Normalmente Santo se apocopa a San antes de los sustantivos propios masculinos (nombres) de los Santos: &#xa;&#xa;           &#x2022;San Pedro es el patrono de los pescadores.&#xa;&#xa;           &#x2022;Hoy es el d&#xed;a de San Miguel.&#xa;&#xa;       Se except&#xfa;an: Los nombres de Santo que comienzan con Do- o To-&#xa;&#xa;           &#x2022;Santo Domingo, Santo Toribio, Santo Tom&#xe1;s, Santo Tob&#xed;as.&#xa;&#xa;       Cuando hay art&#xed;culo es: El santo Miguel.&#xa;&#xa;       Buen o Bueno&#xa;&#xa;       Los Adjetivos bueno y malo se acortan delante de un sustantivo singular masculino:&#xa;&#xa;           &#x2022;Es un buen d&#xed;a para descansar.&#xa;&#xa;           &#x2022;Tengo un mal presentimiento.&#xa;&#xa;       Cualquier o Cualquiera&#xa;&#xa;       Cualquiera es acortado delante de un sustantivo singular masculino. Delante de un sustantivo singular femenino se puede usar ambos: Cualquier y &#xa;&#xa;       cualquiera.&#xa;&#xa;           &#x2022;Cualquier hombre es capaz de hacer eso.&#xa;&#xa;           &#x2022;Cualquiera de la ni&#xf1;as puede jugar a eso.&#xa;&#xa;       Ap&#xf3;cope del adverbio&#xa;&#xa;       Con los adverbios: tanto, cu&#xe1;nto, mucho y recientemente se acortan cuando preceden a un adjetivo, a otro adverbio o una frase preposicional:&#xa;&#xa;                  Adverbio &#x9;           Ap&#xf3;cope &#x9;                    Ejemplo&#xa; &#xa;                    tanto &#x9;                -  tan &#x9;      -  Es tan ordenado con sus cosas. &#xa;                    &#xa;                    cu&#xe1;nto &#x9;              -  cu&#xe1;n &#x9;-  &#xa1;Cu&#xe1;n feliz estoy con tu nuevo trabajo! &#xa;&#xa;                    mucho &#x9;              -  muy                      -  Ahora est&#xe1; muy de moda la comida tailandesa. &#xa;&#xa;                    recientemente &#x9;  -  reci&#xe9;n &#x9;      -  Mi camisa est&#xe1; reci&#xe9;n lavada. &#xa;&#xa;&#xa;    ___________________________________________________________________________________________________________________________&#xa;&#xa;       Bibliograf&#xed;a: &#xa;   &#xa;       http://ortograf&#xed;a.es.mx&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="caretPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="60" width="1170" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="17" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;       La referencia de un art&#xed;culo de una revista consta de los siguientes elementos:&#xa;&#xa;              Autor, A. A., Autor, B. B., y Autor, C. C. (A&#xf1;o). T&#xed;tulo del art&#xed;culo. T&#xed;tulo de la Revista, xx(x), pp-pp.&#xa;&#xa;       5.1. Autor del art&#xed;culo.&#xa;  &#xa;              Proceder igual que en los casos de referencia bibliogr&#xe1;fica de libros.&#xa; &#xa;       5.2. A&#xf1;o de publicaci&#xf3;n.&#xa;&#xa;              Indica el a&#xf1;o en que se public&#xf3; el volumen. Se escribe a continuaci&#xf3;n del autor separado por un punto y espacio, entre par&#xe9;ntesis.&#xa;&#xa;              Ejemplo: (octubre, 2008)&#xa; &#xa;              Si el volumen abarca m&#xe1;s de un a&#xf1;o se escriben las fechas que lo abarcan entre par&#xe9;ntesis y separadas por un gui&#xf3;n. Ejemplo (1990-1998)&#xa;&#xa;       5.3. T&#xed;tulo del art&#xed;culo.&#xa; &#xa;              Se escribir&#xe1; con letra com&#xfa;n y nunca con cursiva, separado del a&#xf1;o de edici&#xf3;n mediante punto. Si tiene un subt&#xed;tulo, se separa del t&#xed;tulo &#xa; &#xa;              mediante dos puntos.&#xa;&#xa;       5.4. T&#xed;tulo de la revista.&#xa;&#xa;              Siempre se escribe en letra cursiva o bien, subrayada. Se separa del t&#xed;tulo del art&#xed;culo mediante punto y espacio y va seguido de coma.&#xa;&#xa;       5.5. Volumen, a&#xf1;o interno o tomo, y n&#xfa;mero.&#xa;&#xa;              Se denomina volumen, tomo o a&#xf1;o interno a la forma en que el editor de una revista ha dividido esa publicaci&#xf3;n, puede no coincidir con el a&#xf1;o &#xa;&#xa;              calendario. Cada volumen, a su 16 vez, puede separarse en n&#xfa;meros: divisiones de aparici&#xf3;n regular fija (mensual, bimestral, etc.).&#xa;&#xa;              Ejemplo: A&#xf1;o 19 no. 4 se consignar&#xe1; 19(4)&#xa;&#xa;              Aclaraci&#xf3;n: El volumen se coloca en cursiva y, sin dejar espacio entre ambos, se coloca el n&#xfa;mero entre par&#xe9;ntesis y sin cursiva. Si la &#xa;&#xa;              Revista no tiene volumen, se escribe el n&#xfa;mero sin utilizar par&#xe9;ntesis y en cursiva (ver ejemplos 4.7).&#xa;&#xa;       5.6. Paginaci&#xf3;n.&#xa; &#xa;              Se escriben los n&#xfa;meros de las p&#xe1;ginas abarcadas por el art&#xed;culo, si se trata de una sola p&#xe1;gina s&#xf3;lo se coloca un n&#xfa;mero, si abarca varias &#xa;&#xa;              p&#xe1;ginas se separan &#xe9;stas mediante un gui&#xf3;n, las p&#xe1;ginas van precedidas por una coma y a continuaci&#xf3;n va punto final.&#xa;&#xa;       Ejemplos de citas y referencias de art&#xed;culos de publicaciones peri&#xf3;dicas&#xa;&#xa;              Troncoso, G. (1998). Costos en entidades de salud. Costos y Gesti&#xf3;n, 30, 93-128. Cita en el texto (Troncoso, 1998, p. 95)&#xa; &#xa;              Gratis es mejor que barato: el CEO de Google y el futuro del negocio. (enero, 2009). Mercado, 1090, 12-14. Cita en el texto&#xa;&#xa;              (&#x201c;Gratis&#x201d;, 2009, p. 12)&#xa;&#xa;&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="caretPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="1" width="1170" height="60"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Im&#xe1;genes/Menu.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Men&#xfa; principal"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel11MousePressed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1060" y="0" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Referencias de art&#xed;culos de revistas"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="0" width="380" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
